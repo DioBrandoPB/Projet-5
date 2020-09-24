@@ -26,7 +26,7 @@
                         <form class="login-form">
                             <input type="text" placeholder="Pseudo" />
                             <input type="password" placeholder="Mot de passe" />
-                            <button class="custom-btn btn-4"><span>Connection</span></button>
+                            <button class="boutons btnBasique"><span>Connection</span></button>
                             <p class="message">Pas inscrit? <a href="#">Créer un compte</a></p>
                         </form>
                     </div>

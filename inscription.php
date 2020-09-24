@@ -28,7 +28,7 @@
                             <input type="text" placeholder="Pseudo" />
                             <input type="password" placeholder="Mot de passe" />
                             <input type="textarea" placeholder="E-Mail" />
-                            <button class="custom-btn btn-4"><span>Inscription</span></button>
+                            <button class="boutons btnBasique"><span>Inscription</span></button>
                             <p class="message">Déjà inscrit? <a href="#">Connectez-vous</a></p>
                         </form>
                     </div>

@@ -28,7 +28,7 @@
                             <input type="text" placeholder="Sujet" />
                             <input type="text" placeholder="E-Mail" />
                             <textarea name="message" id="contactMessage" cols="30" rows="10"></textarea>
-                            <button class="custom-btn btn-4"><span>Envoyé</span></button>
+                            <button class="boutons btnBasique"><span>Envoyé</span></button>
                         </form>
                     </div>
                 </div>
