@@ -53,11 +53,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <!-- Function used to shrink nav bar removing paddings and adding black background -->
     <script>
-        $('.navTrigger').click(function() {
+        $('.navResponsive').click(function() {
             $(this).toggleClass('active');
             console.log("Clicked menu");
-            $("#mainListDiv").toggleClass("show_list");
-            $("#mainListDiv").fadeIn();
+            $("#menuPrincipal").toggleClass("show_list");
+            $("#menuPrincipal").fadeIn();
 
         });
 

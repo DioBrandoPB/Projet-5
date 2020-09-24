@@ -145,12 +145,12 @@ button {
     transition: transform .2s;
 }
 
-.nav div.main_list {
+.nav div.listePrincipal {
     height: 65px;
     float: right;
 }
 
-.nav div.main_list ul {
+.nav div.listePrincipal ul {
     width: 100%;
     height: 52px;
     display: flex;
@@ -158,7 +158,7 @@ button {
     margin: 0px 0px 0px 0px;
 }
 
-.nav div.main_list ul li a {
+.nav div.listePrincipal ul li a {
     width: auto;
     height: 65px;
     padding: 16px 30px 16px 30px;
@@ -170,12 +170,12 @@ button {
     padding: 23px 44px;
 }
 
-.nav div.main_list ul li a {
+.nav div.listePrincipal ul li a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav div.main_list ul li:hover {
+.nav div.listePrincipal ul li:hover {
     color: #fec61a;
     background: rgb(24, 54, 61);
     transition: all .5s;
@@ -318,7 +318,7 @@ footer {
     margin-bottom: 5em;
 }
 
-.navTrigger {
+.navResponsive {
     display: none;
 }
 
@@ -423,13 +423,13 @@ textarea {
 }
 
 @media screen and (max-width:768px) {
-    .navTrigger {
+    .navResponsive {
         display: block;
     }
     .nav div.logo {
         margin-left: 15px;
     }
-    .nav div.main_list {
+    .nav div.listePrincipal {
         width: 100%;
         height: 0;
         overflow: hidden;
@@ -438,7 +438,7 @@ textarea {
         height: auto;
         display: none;
     }
-    .nav div.main_list ul {
+    .nav div.listePrincipal ul {
         flex-direction: column;
         width: 140px;
         height: 340px;
@@ -446,11 +446,11 @@ textarea {
         padding: 0px;
         float: right;
     }
-    .nav div.main_list ul li {
+    .nav div.listePrincipal ul li {
         width: 100%;
         text-align: right;
     }
-    .nav div.main_list ul li a {
+    .nav div.listePrincipal ul li a {
         text-align: center;
         width: 100%;
         font-size: 1.5rem;
@@ -507,7 +507,7 @@ textarea {
 
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
-.navTrigger {
+.navResponsive {
     cursor: pointer;
     width: 30px;
     height: 25px;
@@ -518,7 +518,7 @@ textarea {
     bottom: 0;
 }
 
-.navTrigger i {
+.navResponsive i {
     background-color: #fff;
     border-radius: 2px;
     content: '';
@@ -527,14 +527,14 @@ textarea {
     height: 4px;
 }
 
-.navTrigger i:nth-child(1) {
+.navResponsive i:nth-child(1) {
     -webkit-animation: outT 0.8s backwards;
     animation: outT 0.8s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(2) {
+.navResponsive i:nth-child(2) {
     margin: 5px 0;
     -webkit-animation: outM 0.8s backwards;
     animation: outM 0.8s backwards;
@@ -542,24 +542,24 @@ textarea {
     animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(3) {
+.navResponsive i:nth-child(3) {
     -webkit-animation: outBtm 0.8s backwards;
     animation: outBtm 0.8s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
-.navTrigger.active i:nth-child(1) {
+.navResponsive.active i:nth-child(1) {
     -webkit-animation: inT 0.8s forwards;
     animation: inT 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(2) {
+.navResponsive.active i:nth-child(2) {
     -webkit-animation: inM 0.8s forwards;
     animation: inM 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(3) {
+.navResponsive.active i:nth-child(3) {
     -webkit-animation: inBtm 0.8s forwards;
     animation: inBtm 0.8s forwards;
 }

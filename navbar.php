@@ -3,8 +3,8 @@
             <div class="logo">
                 <a href="index.php"><img src="vendor/img/logo.png" alt=""></a>
             </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
+            <div id="menuPrincipal" class="listePrincipal">
+                <ul class="navLiens">
                     <li><a href="#">Jeux</a></li>
                     <li><a href="#">Actus</a></li>
                     <li><a href="contact.php">Contact</a></li>
@@ -17,7 +17,7 @@
                     </div>
                 </ul>
             </div>
-            <span class="navTrigger">
+            <span class="navResponsive">
             <i></i>
             <i></i>
             <i></i>
